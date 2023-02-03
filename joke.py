@@ -37,3 +37,13 @@ print(datetime.date.today())
 from array import array 
 arr = array('I', [1,2,3]) #I for unsigned integers 
 print(arr[0])
+
+
+#pdb - built in module in python -python developer 
+import pdb 
+def add(num1, num2):
+    pdb.set_trace()
+    t =4*5
+    return num1 + num2
+
+add(4, 5)
